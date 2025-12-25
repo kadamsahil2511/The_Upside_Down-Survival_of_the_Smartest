@@ -3,8 +3,8 @@ import { WagmiAdapter } from '@reown/appkit-adapter-wagmi'
 import { mainnet, arbitrum, base } from '@reown/appkit/networks'
 
 // Get projectId from https://dashboard.reown.com
-// Uses placeholder during build - set NEXT_PUBLIC_PROJECT_ID in your Vercel env vars
-export const projectId = process.env.NEXT_PUBLIC_PROJECT_ID || 'placeholder-project-id'
+// Get projectId from https://dashboard.reown.com
+export const projectId = process.env.NEXT_PUBLIC_PROJECT_ID || 'ec094064dad4fba8272444f9567f991f'
 
 // Include Base so the app supports connecting on the Base network
 export const networks = [base, mainnet, arbitrum]
