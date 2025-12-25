@@ -13,11 +13,6 @@ import { APP_URL } from "@/lib/constants";
 // Create a Query Client for React Query
 const queryClient = new QueryClient();
 
-// Check for required environment variable
-if (!projectId) {
-  throw new Error("Project ID is not defined");
-}
-
 
 // App metadata (required for AppKit modal)
 const metadata = {
