@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "question": "In Stranger Things, what is the name of the parallel dimension?",
+        "options": [
+            "The Dark World",
+            "The Upside Down",
+            "The Shadow Realm",
+            "The Other Side"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 2,
+        "question": "What is Eleven's favorite food?",
+        "options": [
+            "Pizza",
+            "Burgers",
+            "Eggo Waffles",
+            "Ice Cream"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 3,
+        "question": "What game do the kids play in Mike's basement?",
+        "options": [
+            "Chess",
+            "Dungeons & Dragons",
+            "Monopoly",
+            "Risk"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 4,
+        "question": "What is the name of the monster from Season 1?",
+        "options": [
+            "Mind Flayer",
+            "Demogorgon",
+            "Demodogs",
+            "Vecna"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 5,
+        "question": "What does Dustin name his pet Demodog?",
+        "options": [
+            "Dart",
+            "Spike",
+            "Max",
+            "Chester"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 6,
+        "question": "What is the name of the town where Stranger Things takes place?",
+        "options": [
+            "Springfield",
+            "Hawkins",
+            "Riverdale",
+            "Derry"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 7,
+        "question": "What year does Season 1 take place?",
+        "options": [
+            "1983",
+            "1984",
+            "1985",
+            "1986"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 8,
+        "question": "What song saves Max from Vecna?",
+        "options": [
+            "Thriller",
+            "Running Up That Hill",
+            "Never Ending Story",
+            "Material Girl"
+        ],
+        "correctAnswer": 1
+    }
+]

@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import * as Phaser from 'phaser';
-import { BootScene, MenuScene, GameScene } from './scenes';
+import { BootScene, MenuScene, CharacterSelectScene, ArmoryScene, GameScene } from './scenes';
 
 interface PhaserGameProps {
     width?: number;
@@ -38,7 +38,7 @@ export default function PhaserGame({ width, height }: PhaserGameProps) {
                     debug: false,
                 },
             },
-            scene: [BootScene, MenuScene, GameScene],
+            scene: [BootScene, MenuScene, CharacterSelectScene, ArmoryScene, GameScene],
             scale: {
                 mode: Phaser.Scale.FIT,
                 autoCenter: Phaser.Scale.CENTER_BOTH,

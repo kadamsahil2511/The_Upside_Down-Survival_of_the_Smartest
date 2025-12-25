@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* PokemonGB Pixelated Font for Game */
+@font-face {
+    font-family: 'PokemonGB';
+    src: url('/fonts/PokemonGb.ttf');
+    font-display: swap;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
