@@ -1,6 +1,9 @@
 import { NextResponse } from "next/server";
 import { APP_URL } from "../../../lib/constants";
 
+// Force dynamic rendering so APP_URL is computed at runtime with correct VERCEL_URL
+export const dynamic = 'force-dynamic';
+
 export async function GET() {
   const farcasterConfig = {
     // TODO: Add your own account association
